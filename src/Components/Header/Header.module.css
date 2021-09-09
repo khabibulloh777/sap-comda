@@ -33,6 +33,210 @@
     font-size: 16px;
     font-weight: 400;
     margin: 0 15px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+.header_collaction_product_item {
+    width: 75%;
+    height: 90.3vh;
+    position: absolute;
+    left: 33px;
+    top: 64px;
+    display: none;
+    z-index: 40;
+}
+
+.industries:hover .header_collaction_product_item {
+    display: block;
+}
+
+.product:hover .header_collaction_product_item {
+    display: block;
+}
+
+.product_item {
+    width: 100%;
+    height: 90.3vh;
+    display: flex;
+}
+
+.header_collaction_product_item_left {
+    width: 81%;
+    height: 90.3vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+}
+
+.sap_cloud {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0 0 0;
+}
+
+.finance, .customers, .network {
+    width: 27%;
+}
+
+.finance > h5 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.finance > p {
+    font-size: 15px;
+    margin: 8px 0;
+}
+
+.finance > p > a {
+    text-decoration: none;
+    color: rgba(48, 48, 48, 0.966);
+}
+
+.finance > p > a:hover {
+    text-decoration: underline;
+}
+
+.customers > h5 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.customers > p {
+    font-size: 15px;
+    color: rgba(48, 48, 48, 0.966);
+    margin: 8px 0;
+}
+
+.customers > p > a {
+    text-decoration: none;
+    color: rgba(48, 48, 48, 0.966);
+}
+
+.customers > p > a:hover {
+    text-decoration: underline;
+}
+
+.network > h5 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.network > p {
+    font-size: 15px;
+    color: rgba(48, 48, 48, 0.966);
+    margin: 8px 0;
+}
+
+.network > p > a {
+    text-decoration: none;
+    color: rgba(48, 48, 48, 0.966);
+}
+
+.network > p > a:hover {
+    text-decoration: underline;
+}
+
+.sap_planning {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0 0 0;
+}
+
+.supply, .management, .platform {
+    width: 27%;
+}
+
+.supply > h5 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.supply > p {
+    font-size: 15px;
+    color: rgba(48, 48, 48, 0.966);
+    margin: 8px 0;
+}
+
+.supply > p > a {
+    text-decoration: none;
+    color: rgba(48, 48, 48, 0.966);
+}
+
+.supply > p > a:hover {
+    text-decoration: underline;
+}
+
+.management > h5 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.management > p {
+    font-size: 15px;
+    color: rgba(48, 48, 48, 0.966);
+    margin: 8px 0;
+}
+
+.management > p > a {
+    text-decoration: none;
+    color: rgba(48, 48, 48, 0.966);
+}
+
+.management > p > a:hover {
+    text-decoration: underline;
+}
+
+.platform > h5 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.platform > p {
+    font-size: 15px;
+    color: rgba(48, 48, 48, 0.966);
+    margin: 8px 0;
+}
+
+.platform > p > a {
+    text-decoration: none;
+    color: rgba(48, 48, 48, 0.966);
+}
+
+.platform > p > a:hover {
+    text-decoration: underline;
+}
+
+.header_collaction_product_item_right {
+    width: 19%;
+    height: 90.3vh;
+    background-color: rgb(34,34,34);
+}
+
+.collection_item {
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.3s;
+}
+
+.collection_item:hover {
+    background-color: rgba(88, 88, 88, 0.993);
+}
+
+.collection_item > img {
+    width: 50px;
 }
 
 .header_collaction_buy {
@@ -44,6 +248,7 @@
 .buy {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .buy > .search {
@@ -53,8 +258,8 @@
 .buy > p {
     font-size: 16px;
     font-weight: 400;
-    margin: 0 5px 0 0;
-    cursor: pointer;
+    margin: 0 15px 0 0;
+   
 }
 
 .header_icons {
@@ -71,7 +276,7 @@
     display: flex;
     align-items: center;
     margin: 0px 2px;
-    padding: 0px 10px;
+    padding: 0px 15px;
 }
 
 .flag {
@@ -80,13 +285,13 @@
     cursor: pointer;
     display: flex;
     align-items: center;
-    padding: 0px 10px;
-    margin: 0px 10px 0px 2px;
+    padding: 0px 0px;
+    margin: 0px 0px 0px 2px;
 }
 
 .flag > img {
-    width: 30px;
-    height: 30px;
+    width: 27px;
+    height: 27px;
     border-radius: 50%;
     cursor: pointer;
 }
