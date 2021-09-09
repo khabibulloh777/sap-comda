@@ -1,0 +1,57 @@
+.HomeSection::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 17%;
+    height: 100%;
+    background: rgb(0,0,0) ;
+    background: linear-gradient(5deg, rgba(0,0,0,0.1) 0%, rgba(0,212,255,0) 100%);
+}
+.HomeSection{
+    width: 100%;
+    height: 80vh;
+    background: url(../../Images/HomeBavariya.jpg);
+    font-family: "SAPBook",Arial,Helvetica,sans-serif;
+ position: relative;
+ background-size: cover 100%;
+ background-position: center;
+
+}
+.text__big{
+    position: relative;
+    left: 15%;
+    top: 15%;
+}
+.text{
+    font-size: 60px;
+ font-weight: 100;
+}
+
+.textTwo{
+    margin-top: 10px;
+    width: 600px;
+    font-size: 28px;
+    line-height: 1.2;
+}
+.beforafter{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.beforafter > img {
+    width: 35px;
+}
+.beforafter > p  {
+    font-size: 28px;
+    color: #000;
+    font-weight: 500;
+    margin-left: 15px;
+    text-decoration: none;
+}
+.beforafter:hover > p {
+     text-decoration: #000;
+}
+.beforafter{
+    text-decoration: none;
+}

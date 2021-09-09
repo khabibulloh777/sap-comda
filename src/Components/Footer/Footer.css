@@ -1,0 +1,77 @@
+*{
+    list-style-type: none;
+}
+.footer{
+    width: 100%;
+    height: 70vh;
+    background-color: #222222;
+}
+.oneBig{
+    display: flex;
+    padding: 40px;
+    justify-content: space-around;
+ position: relative;
+}
+.oneBig > .one{
+    padding: 0px 40px;
+} 
+.oneBig > .one > ul > h4{
+    color: rgb(173, 170, 170);
+}
+.oneBig > .one > ul > li {
+    padding: 10px 0px;
+    color: rgb(173, 170, 170);
+  font-weight: 100;
+  cursor: pointer;
+}
+..oneBig > .one > ul > li:hover{
+    text-decoration: underline;
+}
+
+.liCopy > img{
+    width: 180px;
+    margin-top: -50px;
+}
+.liCopy{
+    display: flex;
+    width: 200px;
+    align-items: center;
+}
+.imgLi > img{
+    align-items: center;
+    width: 30px;
+}
+
+
+.imgLi {
+    display: flex;
+    align-items: center;
+    padding: 0px 30px ;
+}
+.FooterLine{
+    width: 85%;
+    height: 1px;
+    margin: auto;
+    background-color: cadetblue;
+}
+.imgFotterDive{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 120px;
+    position: relative;
+}
+.imgFotterDive > .img > img{
+    width: 50px;
+    position: relative;
+}
+.absolute  {
+    width: 300px;
+    display: flex;
+   position: absolute;
+   right: 30px;
+}
+
+.twitter{
+    background-color: rebeccapurple;
+}
